@@ -1,0 +1,23 @@
+﻿  transform.cpp
+  skyDome.cpp
+  sceneModel.cpp
+  scene3D.cpp
+  Scene2D.cpp
+c:\users\adha\source\repos\main\main\scene2d.cpp(20): error C3861: 'GetD3DDevice': 識別子が見つかりませんでした
+c:\users\adha\source\repos\main\main\scene2d.cpp(91): error C3861: 'GetD3DDevice': 識別子が見つかりませんでした
+c:\users\adha\source\repos\main\main\scene2d.cpp(93): error C3861: 'GetD3DDevice': 識別子が見つかりませんでした
+  renderer.cpp
+  Polygon.cpp
+c:\users\adha\source\repos\main\main\polygon.h(35): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'TEXTURE_ENUM' の左辺を無視します。
+  main.cpp
+c:\users\adha\source\repos\main\main\polygon.h(35): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'TEXTURE_ENUM' の左辺を無視します。
+c:\users\adha\source\repos\main\main\main.cpp(34): warning C4005: 'SCREEN_WIDTH': マクロが再定義されました。
+  c:\users\adha\source\repos\main\main\main.h(6): note: 'SCREEN_WIDTH' の以前の定義を確認してください
+c:\users\adha\source\repos\main\main\main.cpp(35): warning C4005: 'SCREEN_HEIGHT': マクロが再定義されました。
+  c:\users\adha\source\repos\main\main\main.h(7): note: 'SCREEN_HEIGHT' の以前の定義を確認してください
+  light.cpp
+c:\users\adha\source\repos\main\main\light.cpp(59): error C3861: 'GetD3DDevice': 識別子が見つかりませんでした
+  camera.cpp
+c:\users\adha\source\repos\main\main\camera.cpp(95): error C3861: 'GetD3DDevice': 識別子が見つかりませんでした
+  コードを生成中...
+c:\users\adha\source\repos\main\main\renderer.cpp(74): warning C4715: 'CRenderer::Init': 値を返さないコントロール パスがあります。

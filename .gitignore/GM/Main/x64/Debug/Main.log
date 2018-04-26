@@ -1,0 +1,47 @@
+﻿  transform.cpp
+  sceneModel.cpp
+c:\users\adha\source\repos\main\main\scenemodel.cpp(10): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
+c:\users\adha\source\repos\main\main\scenemodel.cpp(37): warning C4101: 'str1': ローカル変数は 1 度も使われていません。
+c:\users\adha\source\repos\main\main\scenemodel.cpp(69): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  scene3D.cpp
+  Scene2D.cpp
+c:\users\adha\source\repos\main\main\scene2d.cpp(104): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\adha\source\repos\main\main\scene2d.cpp(105): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\adha\source\repos\main\main\scene2d.cpp(106): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\adha\source\repos\main\main\scene2d.cpp(107): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+  Polygon.cpp
+c:\users\adha\source\repos\main\main\polygon.h(35): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'TEXTURE_ENUM' の左辺を無視します。
+c:\users\adha\source\repos\main\main\polygon.cpp(170): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\adha\source\repos\main\main\polygon.cpp(171): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\adha\source\repos\main\main\polygon.cpp(172): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\adha\source\repos\main\main\polygon.cpp(173): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\adha\source\repos\main\main\polygon.cpp(222): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\adha\source\repos\main\main\polygon.cpp(223): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  main.cpp
+c:\users\adha\source\repos\main\main\polygon.h(35): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'TEXTURE_ENUM' の左辺を無視します。
+c:\users\adha\source\repos\main\main\main.cpp(32): warning C4005: 'SCREEN_WIDTH': マクロが再定義されました。
+  c:\users\adha\source\repos\main\main\main.h(5): note: 'SCREEN_WIDTH' の以前の定義を確認してください
+c:\users\adha\source\repos\main\main\main.cpp(33): warning C4005: 'SCREEN_HEIGHT': マクロが再定義されました。
+  c:\users\adha\source\repos\main\main\main.h(6): note: 'SCREEN_HEIGHT' の以前の定義を確認してください
+  camera.cpp
+  コードを生成中...
+c:\users\adha\source\repos\main\main\main.cpp(244): warning C4715: 'Init': 値を返さないコントロール パスがあります。
+camera.obj : error LNK2019: 未解決の外部シンボル D3DXVec3Normalize が関数 "void __cdecl Camera2(void)" (?Camera2@@YAXXZ) で参照されました。
+camera.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixLookAtLH が関数 "void __cdecl Camera2(void)" (?Camera2@@YAXXZ) で参照されました。
+camera.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixPerspectiveFovLH が関数 "void __cdecl Camera2(void)" (?Camera2@@YAXXZ) で参照されました。
+main.obj : error LNK2019: 未解決の外部シンボル Direct3DCreate9 が関数 "int __cdecl Init(struct HINSTANCE__ *,struct HWND__ *,int)" (?Init@@YAHPEAUHINSTANCE__@@PEAUHWND__@@H@Z) で参照されました。
+Polygon.obj : error LNK2019: 未解決の外部シンボル D3DXCreateTextureFromFileA が関数 "int __cdecl PolygonInit(void)" (?PolygonInit@@YAHXZ) で参照されました。
+Scene2D.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+scene3D.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+scene3D.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixMultiply が関数 "public: struct D3DXMATRIX __cdecl D3DXMATRIX::operator*(struct D3DXMATRIX const &)const " (??DD3DXMATRIX@@QEBA?AU0@AEBU0@@Z) で参照されました。
+sceneModel.obj : error LNK2001: 外部シンボル "D3DXMatrixMultiply" は未解決です。
+scene3D.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixInverse が関数 "public: void __cdecl CScene3D::Draw(void)" (?Draw@CScene3D@@QEAAXXZ) で参照されました。
+scene3D.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixTranslation が関数 "public: void __cdecl CScene3D::Draw(void)" (?Draw@CScene3D@@QEAAXXZ) で参照されました。
+sceneModel.obj : error LNK2001: 外部シンボル "D3DXMatrixTranslation" は未解決です。
+sceneModel.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixScaling が関数 "public: void __cdecl CSceneModel::Draw(struct D3DXVECTOR3,float,float)" (?Draw@CSceneModel@@QEAAXUD3DXVECTOR3@@MM@Z) で参照されました。
+sceneModel.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixRotationY が関数 "public: void __cdecl CSceneModel::Draw(struct D3DXVECTOR3,float,float)" (?Draw@CSceneModel@@QEAAXUD3DXVECTOR3@@MM@Z) で参照されました。
+sceneModel.obj : error LNK2019: 未解決の外部シンボル D3DXLoadMeshFromXA が関数 "public: void __cdecl CSceneModel::Init(void)" (?Init@CSceneModel@@QEAAXXZ) で参照されました。
+C:\Users\adha\Downloads\素材\lib\x86\d3d9.lib : warning LNK4272: ライブラリのコンピューターの種類 'x86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Users\adha\Downloads\素材\lib\x86\d3dx9.lib : warning LNK4272: ライブラリのコンピューターの種類 'x86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Users\adha\Downloads\素材\lib\x86\dxguid.lib : warning LNK4272: ライブラリのコンピューターの種類 'x86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Users\adha\source\repos\Main\x64\Debug\Main.exe : fatal error LNK1120: 11 件の未解決の外部参照
